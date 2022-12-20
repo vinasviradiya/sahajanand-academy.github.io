@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sahjanand academy</title>
+    <script type="text/javascript">
+
+      function hello()
+      {
+          //alert("hi");
+          document.getElementById('demo').innerHTML="mamo";
+
+      }
+      function hello1()
+      {
+          //alert('hello1');
+          var a=document.getElementById('demo2');
+          if (a.checkValidity())
+          {
+              document.getElementById('demo3').innerHTML="Valid Data";
+          }
+          else
+          {
+              document.getElementById('demo3').innerHTML=a.ValidationMessage;
+          }
+      }
+     
+
+ 
+     
+  </script>
+    
+</head>
+<body>
+    <table border="5">
+        <tr>
+            <th colspan="3">welcome to sahjanand academy</th>
+        </tr>
+        <tr>
+            <th colspan="2"><a href="home.html">Home</a><a href="3.html">register</a></th>
+            </tr>
+            <tr>news</tr>
+            <th rowsplan="2">
+                <form  action="#" method="post" oninput="z.value=parseInt(x.value)+parseInt(y.value)">
+    
+                    <table>
+                      <tr>
+                        <td>
+                          name:<b style="color: blue">*</b
+                          ></td><td><input
+                            type="text"name="name"placeholder="name in uppercase"_>
+                        </td>
+                      </tr>
+              
+                      <tr>
+                        <td>
+                          surname:</td><b style="color: brown">*</b>
+                          <td><input type="text"name="fname"placeholder="name in lowercase"_>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          phone number:</td><b style="color: aqua">*</b>
+                          <td><input type="text"name="gname"placeholder="name in lowercase" _>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Dob:</td>
+                        <td><input type="date" name="date of birth" _ /></td>
+                      </tr>
+                      <tr>
+                        <td>Hobbies:</td>
+                        <td>
+                          <input type="checkbox" name="h1" value="vollyball">vollyball
+                          <input type="checkbox" name="h2" value="basketball" >basketball
+                          <input type="checkbox" name="h3" value="cricket" >cricket
+                          <input type="checkbox" name="h4" value="football" >football
+                        </td>
+                      </tr>
+                      <tr>
+                          <td> gender:</td> 
+                          <td><input type="radio" name="gender" value="male" >male
+                           <input type="radio" name="gender" value="female">female
+                           <input type="radio" name="gender" value="other">other
+                          </td>
+                        </tr>
+                        <a href="tel:7202029068">7202029068</a>
+                      <tr>
+                        <td>password:</td>
+                        <td>
+                          <b
+                          style="color:blueviolet;">*</b><input
+                          type="password"
+                          name="password"
+                          _>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td> city:</td>
+                        <td>
+                         <select
+                          name="city" placeholder="city" _>
+                          <option value="select">--select--</option>
+                          <option value="vadodara">vadodara</option>
+                          <option value="surat">surat</option>
+                          <option value="botad">botad</option>
+                        </select>
+                        </td>
+                      </tr>
+                      <tr>
+                          <td>address:</td>
+                          <td><textarea name="address"></textarea></td>
+                      </tr>
+                      <tr>
+                        <td>full address:</td>
+                        <td><textarea name="address" rows="5" cols="25"></textarea></td>
+                    </tr>
+                    <tr>
+                      <td>File</td>
+                      <td><input type="file" name="file"></td><!--choose any file-->
+                    </tr>
+                        <tr>
+                         <th colspan="2" ><address>112,ramnagar society near rashi circle katargam ,surat.</address></th>
+                      </tr>
+                      <tr>
+                        <tr>
+                          <td>input:</td>
+                        <td><input type="number" id="x">
+                        <input type="range" id="y" value="30"></td>         
+                        <td><output id="z" for="x,y"></td>
+                      </tr>
+              
+              
+                    </table>
+                    <input type="submit" >
+                  </form>
+            </th>
+<th>Achievement</th>
+<tr>
+    <th>important link</th>
+    <th>important dates</th>
+</tr>
+  <tr>
+    <th colsplan="3">copyright@vinas</th>
+  </tr>            
+    </table>
+    <p> know current date&time</p>
+    <button type="button"onclick="document.getElementById('demo').innerHTML=Date()">CLICK HERE</button>
+    <p id="demo">vinas viradia</p>
+    <p>PARUL UNIVERSITY</p>
+    <p id="demo">
+      Be here Be vibrant
+    </p>
+    <input type="button" value="click"onclick="hello()">
+    <button onclick="window.print()">print</button>
+    <p id="d1"></p>
+     <script>
+        var x=5;
+        var y=2;
+        var z=x+y;
+        document.getElementById('d1').innerHTML="addition is" +z;
+     </script>
+
+
+     <input type="number" id="demo2" min="100" max="200">
+     <input type="button" value="click" onclick="hello1()">
+
+
+     <p id="demo3"></p>
+</body>
+</html>
